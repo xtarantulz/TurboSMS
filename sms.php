@@ -1,8 +1,8 @@
 <?php
 	class SMS{
 		public static $sender='TurboSMS';
-		public static $login='xtarantulz';
-		public static $pwd='x380978377026z';    
+		public static $login='********';
+		public static $pwd='***********';    
 		
 		public static function send($r,$m,$d=false){
 			try{

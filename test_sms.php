@@ -1,8 +1,8 @@
 <?php
 	//подключение класса
-	require_once($_SERVER['DOCUMENT_ROOT']."/php/sms.php");
+	require_once("sms.php");
 	
 	//отправка смс
-	SMS::send('+380632700658','Hello World');
+	SMS::send('+3***********','Hello World');
 ?>
 
